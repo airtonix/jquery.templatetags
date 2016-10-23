@@ -37,13 +37,6 @@
 	};
 
 	//
-	// define and expose our PUBLIC FUNCTIONs
-	//
-	$.fn.templateTags.getTag = function(tagName) {
-		return $(this).getTag(tag)
-	};
-
-	//
 	// plugin defaults
 	//
 	$.fn.templateTags.defaults = {
